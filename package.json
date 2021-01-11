@@ -7,7 +7,8 @@
   "author": "wommy <tom@technomad.media>",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1"
+    "@11ty/eleventy": "^0.11.1",
+    "dotenv": "^8.2.0"
   },
   "dependencies": {
     "node-fetch": "^2.6.1"
