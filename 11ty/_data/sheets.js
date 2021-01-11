@@ -1,9 +1,9 @@
 const fetch = require('node-fetch')
 
-module.exports = function() {
-	console.log('howdy');
+let key = '1X9l9gS_fYxs897qrx2LXAY0WYSlvvU8uNyBf1gZzqWU'
 
-	let url = 'https://spreadsheets.google.com/feeds/cells/1X9l9gS_fYxs897qrx2LXAY0WYSlvvU8uNyBf1gZzqWU/1/public/full?alt=json'
+module.exports = function() {
+	let url = `https://spreadsheets.google.com/feeds/cells/${key}/1/public/full?alt=json`
 
 	fetch(url)
 	.then( res => res.json() )
