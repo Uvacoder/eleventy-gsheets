@@ -1,0 +1,12 @@
+{
+  "name": "11ty-sheets",
+  "version": "1.0.0",
+  "description": "11ty with google sheets",
+  "main": "index.js",
+  "repository": "git@github.com:wommy/11ty-sheets.git",
+  "author": "wommy <tom@technomad.media>",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
