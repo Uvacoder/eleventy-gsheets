@@ -1,4 +1,3 @@
-// const fetch = require('node-fetch')
 const axios = require('axios')
 require('dotenv').config()
 
@@ -7,7 +6,4 @@ module.exports = async function() {
 
 	return axios.get(url)
 		.then( res => console.log( res.data ) )
-	// fetch(url)
-	// .then( res => res.json() )
-	// .then( json => console.log( json.feed.entry ) )
 }
